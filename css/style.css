@@ -1,13 +1,24 @@
-header, section{
+section{
     margin: 10px 0;
-}
-
-footer{
-    margin: 5px 0;
 }
 
 [class*="col-"] {
     min-height: 50px;
     background-color: blue;
     border: solid 2px white;
+    color: white;
+    text-align: center;
+    padding: 1% 0;
+}
+
+[class*="col"] {
+    min-height: 50px;
+}
+
+.green{
+    text-align: center;
+    padding: 1% 0;
+    background-color: #04db04;
+    border: solid 3px blue;
+    color: white;
 }
